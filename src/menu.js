@@ -20,8 +20,19 @@ function createmenuPage() {
     create_title();
 
     function cookies() {
-        
+        let cookies_div = document.createElement('div')
+        cookies_div.id = 'cookies_div'
+        let option = document.createElement('h4');
+        option.innerHTML = 'Cookies'
+        let paragraph = document.createElement('p');
+        paragraph.innerHTML = 'These are the best cookies on the market made exclusively by Zig!'
+        cookies_div.appendChild(option)
+        cookies_div.appendChild(paragraph);
+        eightydiv.appendChild(cookies_div)
     }
+
+    cookies();
+
 
     initialdiv.appendChild(eightydiv);
     const btn = document.getElementById('Menu');

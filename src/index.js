@@ -1,5 +1,6 @@
 import {createHomePage} from './homepage'
 import {createmenuPage} from './menu'
+import {createContactPage} from './contact'
 
 
 function check_for_button_clicks() {
@@ -18,9 +19,19 @@ function check_for_button_clicks() {
             createmenuPage();
         })
     }
+
+    function contact() {
+        const btn = document.getElementById('Contact');
+        btn.addEventListener('click', () => {
+            document.getElementById('content').innerHTML = '';
+            createContactPage();
+        })
+    }
+    contact();
     menu();
     home();
 
 }
-createHomePage();
+
+createContactPage();
 check_for_button_clicks();

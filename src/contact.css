@@ -1,3 +1,8 @@
+body {
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
 #content {
     display: flex;
     justify-content: center;
@@ -15,24 +20,10 @@
     flex-direction: column;
 }
 
-#title_div {
+#title {
     width: 60%;
     text-align: center;
     padding: 25px 0 35px 0;
     font-size: 40px;
 
-}
-
-#cookies_div {
-    text-align: center;
-    padding-top: 50px;
-}
-
-#cookies_div > h4 {
-    font-size: 27px;
-    padding-bottom: 10px;
-}
-
-#cookies_div > p {
-    font-size: 20px;
 }
