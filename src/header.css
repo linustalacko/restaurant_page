@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+header {
+    background-color: blanchedalmond;
+}
+
+#initial {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 0 ;
+}
+
+#initial > button {
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    border: transparent;
+    transition: 0.4s;
+    color: white;
+}
+
+#initial > button:hover {
+    background-color: rgb(38, 102, 221);
+    cursor: pointer;
+}
